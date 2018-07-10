@@ -15,6 +15,7 @@
 		4FA28B1D20F5032B00AD3840 /* News_StoriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA28B1C20F5032B00AD3840 /* News_StoriesTests.swift */; };
 		4FA28B2820F5032C00AD3840 /* News_StoriesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA28B2720F5032C00AD3840 /* News_StoriesUITests.swift */; };
 		4FA28B3620F5056B00AD3840 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA28B3520F5056B00AD3840 /* SwiftyJSON.swift */; };
+		4FA28B3820F511A200AD3840 /* ArticlesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA28B3720F511A200AD3840 /* ArticlesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4FA28B2720F5032C00AD3840 /* News_StoriesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News_StoriesUITests.swift; sourceTree = "<group>"; };
 		4FA28B2920F5032C00AD3840 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FA28B3520F5056B00AD3840 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		4FA28B3720F511A200AD3840 /* ArticlesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				4FA28B0720F5032600AD3840 /* AppDelegate.swift */,
+				4FA28B3720F511A200AD3840 /* ArticlesViewController.swift */,
 				4FA28B0920F5032600AD3840 /* SourcesViewController.swift */,
 				4FA28B0B20F5032600AD3840 /* Main.storyboard */,
 				4FA28B0E20F5032B00AD3840 /* Assets.xcassets */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FA28B3620F5056B00AD3840 /* SwiftyJSON.swift in Sources */,
+				4FA28B3820F511A200AD3840 /* ArticlesViewController.swift in Sources */,
 				4FA28B0A20F5032600AD3840 /* SourcesViewController.swift in Sources */,
 				4FA28B0820F5032600AD3840 /* AppDelegate.swift in Sources */,
 			);
