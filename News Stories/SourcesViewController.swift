@@ -37,15 +37,15 @@ class SourcesViewController: UITableViewController {
             let source = ["id": id, "name": name, "description": description]
             sources.append(source)
         }
-        tableView.reloadData()
-        let source = sources[indexPath.row]
-        cell.textLabel?.text = source["name"]
-        cell.detailTextLabel?.text = source["description"]
-        return cell
     }
     
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        let cell = tableView.dequeueReusableCell(withIdentifier: Cell, for: indexPath)
+override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+    tableView.reloadData()
+    let source = sources[indexPath.row]
+    cell.textLabel?.text = source["name"]
+    cell.detailTextLabel?.text = source["description"]
+    return cell
     }
     
     func loadError(){
